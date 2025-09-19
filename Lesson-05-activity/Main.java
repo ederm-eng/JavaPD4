@@ -37,7 +37,7 @@ System.out.println("The answer to challange two is:" + alright);
     Declare and assign values to any new variables
     NOTE: Does it look correct, check with a calculator?
 */
-    int average = (they + them + like)/3
+    double average = (they + them + like)/3
     System.out.println("The answer of challange three is:" + average);
 
 
@@ -48,9 +48,9 @@ System.out.println("The answer to challange two is:" + alright);
     Declare and assign values to any new variables
 
 */
-int A1 = 5;
-   int X1 = 4;
-   int Y1 = A1/(X1+1);
+    double A1 = 5;
+   double X1 = 4;
+   double Y1 = A1/(X1+1);
    System.out.println("The sum is of challenge four is:" + Y1);
   
 
@@ -61,9 +61,9 @@ int A1 = 5;
     Declare and assign values to any new variables
 
 */
-  int X2 = 2
-    int A2 = 4
-    int Y2 = (2*X2(X2+1)*(-1(X2/2))A2;
+  double X2 = 2
+    double A2 = 4
+    double Y2 = (2*X2(X2+1)*(-1(X2/2))A2;
     System.out.println("The sum of challange five is:" + Y2);
 
 /*  
