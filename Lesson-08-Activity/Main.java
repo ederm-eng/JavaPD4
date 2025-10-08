@@ -8,7 +8,7 @@ class Main {
 
   }
 
-  String print(String word){
+  void print(String word){
 	System.out.println = word;
   }
   Double FtoC(double FRNHT){
