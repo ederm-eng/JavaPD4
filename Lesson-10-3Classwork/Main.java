@@ -18,11 +18,11 @@ class Main {
     */
   Double groupSavings(double tickets){
    
-    if (tickets < 8 && 1 < tickets){
+    if (tickets <= 8 && 1 <= tickets){
       double total = 11 * tickets
       return total
     }
-    else if ( tickets < 18 && 9 < tickets){
+    else if ( tickets <= 18 && 9 <= tickets){
       double total = tickets * 10.50
       return total
     }
