@@ -16,19 +16,18 @@ class Main {
       9 to 16 tickets : each ticket cost $10.50
       over 16 tickts  : each ticket cost $8.50
     */
-  Double groupSavings(double tickets){
-   
+  Double groupSavings(int tickets){
     if (tickets <= 8 && 1 <= tickets){
-      double total = 11 * tickets
-      return total
+      init(); total = 11 * tickets;
+      return total;
     }
     else if ( tickets <= 18 && 9 <= tickets){
-      double total = tickets * 10.50
-      return total
+      double total = tickets * 10.50;
+      return total;
     }
     else{
-      double total = tickets * 8.50
-      return total
+      double total = tickets * 8.50;
+      return total;
     }
   }
   
@@ -46,16 +45,16 @@ class Main {
     */
   Double groceryDiscount(double subtotal, double cannedBeans){
     if (subtotal < 200 && subtotal < 100 && cannedBeans <= 3){
-    double discount = 10
-    return discount 
+    double discount = 10;
+    return discount;
     }
   }
-    if (subtotal > 200 && cannedBeans > 4){
-      double discount = 25
+    else if (subtotal > 200 && cannedBeans > 4){
+      double discount = 25;
     }
     else{
-      double discount = 0
-      return discount
+      double discount = 0;
+      return discount;
     }
 
 }
