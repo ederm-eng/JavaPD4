@@ -47,8 +47,20 @@ class Main {
      return word.subString(1), + word.subString(0,1), + "ay";
   }
 
-  String nycLocate(String zipCode){
-    String zip = zipCode.subString
-  }
-  
+  String nycLocate(String zip){
+    if(zip.subString(0,3).equals("100") || zip.subString(0,3).equals("101") || zip.subString(0,3).equals("102")){
+      return "Manhatten";
+    }
+    else if(zip.subString(0,3).equals("103")){
+      return "Staten Island"
+    } 
+    else if(zip.subString(0,3).equals("104")){
+      return "Bronx"
+    }
+    else if(zip.subString(0,3).equlas("104")){
+      return "Brooklyn"
+    }
+    else if(zip.subString(0,3).equals("113") || zip.subString(0,3).equals("111") || zip.subString(0,3).equals("114"){
+      return "Queens"
+    }
 }
