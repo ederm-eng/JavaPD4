@@ -1,4 +1,4 @@
-class Main {vggg
+class Main {
   public static void main(String[] args) {
     (new Main()).init();
   }
@@ -7,26 +7,7 @@ class Main {vggg
 
   void init(){
 
-    // Challenge1: Read in the file Original.txt and store it in a variable
    
-
-    
-  }
-
-   // Challenge2: 
-  //  Write the function encode that takes in a string
-  //  and create a new string that using a caesar cipher 
-  // by shifting all ascii values by 3.  Don't worry about
-  // wrapping arount the alphabet.
-
-   
-
-  // Challenge3: 
-  //  Write the function decode that takes in a string
-  //  and reverses what the function in chanllenge 2
-  //  so that you get the original message.
-
-  
   int randInt(int lower, int upper){
     int range = upper - lower;
     return (int)(Math.random()*range+lower);
