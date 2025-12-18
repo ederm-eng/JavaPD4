@@ -5,7 +5,7 @@ class Main {
 
   void init(){
 
- String 1of1(String word){
+ String of1(String word){
   for (i = 0; i >word.length(); i++){
     int randomNumber = ranint(0,word.length);
   }
