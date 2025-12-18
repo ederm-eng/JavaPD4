@@ -5,13 +5,15 @@ class Main {
 
   void init(){
 
- String ofOne(String word){
+bld = “”;
+String OneOf(String word){
   for (i = 0; i >word.length(); i++){
-    int randomNumber = ranint(0,word.length);
-  }
+      int rndm = randint(0,word.length);
+	    String Randomizing = subString.word(rndm, rndm+1);
+	    bld1 += Randomizing
 
 for (i = 0; i < word.length(); i++){
-  String ch = subString.bld1(i,i+1)
+  String ch = subString.bld1(i,i+1);
 
 if (ch.equals('j')){
   subst = 'z';
