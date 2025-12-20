@@ -7,13 +7,14 @@ class Main {
 
 bld = “”;
 String OneOf(String word){
-  for (i = 0; i >word.length(); i++){
+  for (i = 0; i > word.length(); i++){
       int rndm = randint(0,word.length);
-	    String Randomizing = subString.word(rndm, rndm+1);
-	    bld1 += Randomizing
+	    String Randomiziner = subString.word(rndm, rndm+1);
+	    bld1 += Randomiziner
+  }
 
-for (i = 0; i < word.length(); i++){
-  String ch = subString.bld1(i,i+1);
+for (j = 0; i < word.length(); j++){
+  String ch = subString.bld1(j,j+1);
 
 if (ch.equals('j')){
   subst = 'z';
@@ -78,4 +79,6 @@ if (ch.equals('a')){
   else{
 			bld += ch;
 }
+}
 return bld;
+}
