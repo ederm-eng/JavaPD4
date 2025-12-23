@@ -12,7 +12,7 @@ String OneOf(){
   String loolite = "hello";
   String bld1 = "";
   for (int i = 0; i < loolite.length(); i++){
-    int rndm = Math.random(0,loolite.length);
+    int rndm = (int)(Math.random() * loolite.length());
     String Randomiziner = loolite.substring(rndm, rndm + 1);
 
    bld1 += Randomiziner;
@@ -20,12 +20,12 @@ String OneOf(){
                                             
   String bld = "";
   for (int j = 0; j < loolite.length(); j++){
-  String ch = substring.bld1(j,j + 1);
-  if (ch.equals 'j') {
+  String ch = bld1.substring(j, j + 1);
+  if  (ch.equals("j"))
     subst = 'z';
     bld += subst;
   }
-  else if (ch == 'z') {
+  else if (ch.equals("z")) {
   subst = 'j';
   bld += subst;
   }
