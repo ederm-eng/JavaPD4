@@ -1,84 +1,89 @@
+import java.util.Random;
 class Main {
-  public static void main(String[] args) {
-    (new Main()).init();
-  }
+    public static void main(String[] args) {
+        (new Main()).init();
+ }
 
-  void init(){
-
-bld = “”;
-String OneOf(String word){
-  for (i = 0; i > word.length(); i++){
-      int rndm = randint(0,word.length);
-	    String Randomiziner = subString.word(rndm, rndm+1);
-	    bld1 += Randomiziner
-  }
-
-for (j = 0; i < word.length(); j++){
-  String ch = subString.bld1(j,j+1);
-
-if (ch.equals('j')){
-  subst = 'z';
-  bld += substl;
+void init(){
+System.out.println("hello");
 }
 
-else if (ch.equals('z')){
+String OneOf(){
+  String loolite = "hello";
+  String bld1 = "";
+  for (int i = 0; i < loolite.length(); i++){
+    int rndm = Math.random(0,loolite.length);
+    String Randomiziner = loolite.substring(rndm, rndm + 1);
+
+   bld1 += Randomiziner;
+}
+                                            
+  String bld = "";
+  for (int j = 0; j < loolite.length(); j++){
+  String ch = substring.bld1(j,j + 1);
+  if (ch.equals 'j') {
+    subst = 'z';
+    bld += subst;
+  }
+  else if (ch == 'z') {
   subst = 'j';
   bld += subst;
-}
+  }
 
-else if (ch.equals('e')){
-  ch = 'a';
+  else if (ch == 'e') {
+  subst = 'a';
   bld += subst;
-}
-
-if (ch.equals('a')){
+  }
+  else if (ch == 'a') {
   subst = 'e';
-  bld += substl;
-}
+  bld += subst;
+  } 
 
-  else if (ch.equals('l')){
+  else if (ch == 'l'){
     subst = 't';
     bld += subst;
-}
+  } 
 
-  else if (ch.equals('t')){
-    ch = 'l';
- 	    bld += subst;
-}
-
-  if (ch.equals('J')){
-    subst = 'Z';
-    bld += substl;
-}
-
-  else if (ch.equals('Z')){
-    subst = 'J';
- 		bld += subst;
-}
-
-  else if (ch.equals('E')){
-    ch = 'A';
+  else if (ch == 't'){
+    subst = 'l';
     bld += subst;
-}
+  } 
 
-  if (ch.equals('A')){
+  else if (ch == 'J'){
+    subst = 'Z';
+    bld += subst;
+  } 
+
+  else if (ch == 'Z'){
+    subst = 'J';
+    bld += subst;
+  } 
+
+  else if (ch == 'E'){
+    subst = 'A';
+    bld += subst;
+  } 
+
+  else if (ch == 'A'){
     subst = 'E';
-    bld += substl;
-}
+    bld += subst;
+  } 
 
-  else if (ch.equals('L')){
+  else if (ch == 'L'){
     subst = 'T';
     bld += subst;
-}
+  }
 
-  else if (ch.equals('T')){
-    ch = 'L';
+  else if (ch == 'T'){
+    subst = 'L';
     bld += subst;
-}
+  }
 
   else{
-			bld += ch;
-}
+    bld += ch;
+  }
 }
 return bld;
+
+}
 }
